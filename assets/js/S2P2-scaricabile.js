@@ -34,10 +34,10 @@ const amy = {
     isAmbassador: false,
 }
 
-const prices = [34, 55, 20]
+const prices = [34, 5, 2]
 const shippingCost = 50
 let utenteCheEffettuaLAcquisto = marco //cambia il valore qui per provare se il tuo algoritmo funziona!
-
+// ---------- ESECUZIONE PASSO PASSO ----------
 // prezzo totale del carrello
 let totaleCarrello = 0;
 for (const ITERATOR of prices) {
@@ -77,7 +77,7 @@ for (const iterator of utenti) {
 
 
 
-// ------------ MIA INIZIATIVA
+// ---------- ESECUZIONE ----------
 let utenti2 = [];
 let ambassador2 = [];
 utenti2.push(marco, paul, amy);
